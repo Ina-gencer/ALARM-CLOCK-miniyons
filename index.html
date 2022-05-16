@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="boxContainer">
+        <div class="heading">
+            <h1>alarm clock</h1>
+        </div>
+
+        <div class="musicPlay">
+            <button class="btnTwo">play
+                <img src="Happy-Minion-Icon_43763.png" alt="" width="48px">
+            </button>
+            <button id="btnThree">stop
+                <img src="banana.png" alt="" width="48px">
+            </button>
+        </div>
+    <div class="dates">
+        <input id="inputDate" type="datetime-local"  value="2022-01-01T00:00">
+    </div>
+
+<br>
+    
+        <div class="clockBox"> 
+            <div class="clock"></div>
+        </div>
+    
+    
+    <audio id="myAudio" src="The Turtles - Happy Together [OST Миньоны 2015] (www.hotplayer.ru).mp3"  autoplay="allowed"></audio>
+
+    <div class="container">
+        <div class="box">
+            <div class="block" >
+                <h4 class="days">0</h4>
+                <h3>DAYS</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="block">
+                <h4 class="hours">0</h4>
+                <h3>HOURS</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="block">
+                <h4 class="minuts">0</h4>
+                <h3>MINUTES</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="block">
+                <h4 class="seconds">0</h4>
+                <h3>SECONDS</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
